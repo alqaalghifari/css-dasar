@@ -1,0 +1,45 @@
+.navbar {
+  display:flex;
+  border: Spx solid teal;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  border-radius: 6px;  
+}
+.logo {
+    border: 16x;
+    padding: 16px
+}
+.menu {
+    display:flex;
+    list-style: none;
+    gap: 16px;
+}
+.menu li a {
+    display: flex;
+    background: rgb(254, 255, 254);
+}
+.buttom {
+    background-color: aquamarine;
+    text-align: center;
+}
+.hero {
+    align-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32;
+    padding: 12px;
+}
+.galeri {
+  display: grid;
+  border: 6px solid rgb(0, 0, 0);
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+}
+.galeri div{
+    border: 2px solid  rgb(6, 12, 1);
+    background-color:  rgb(254, 255, 254);
+}
