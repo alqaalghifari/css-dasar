@@ -1,0 +1,115 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ec3e09;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-weight: bold;
+  border: 1px solid #999;
+  padding: 5px 15px;
+  background-color: #f9fd10;
+}
+
+.nav-menu a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #999;
+  padding: 5px 10px;
+  background-color: #ecfc15;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px 30px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-text h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  color: #666;
+}
+
+.hero-image {
+  width: 280px;
+  height: 200px;
+  border: 1px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  color: #888;
+}
+
+.galeri-produk {
+  padding: 40px 30px;
+}
+
+.galeri-produk h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.kartu {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-placeholder {
+  height: 120px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  color: #777;
+}
+
+.kartu h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.kartu .harga {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.btn-beli {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+}
